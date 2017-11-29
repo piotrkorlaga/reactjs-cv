@@ -22,11 +22,17 @@
 		width: 60%;
 		padding-top: 40px;
 		padding-left: 10px;
-		font-size: 1.1vw;
+		font-size: 1em;
 		text-align: justify;
 		line-height: 21px;
 		font-weight: lighter;
 		color: #a6aaad;
+	}
+	@media screen and (min-width: 1400px) {
+		p {
+			width: 50%;
+			line-height: 24px;
+		}
 	}
 
 }

@@ -13,6 +13,7 @@ class Sidebar extends React.Component{
 				<HeadSidebar />
 				<PersonalDetails />
 				<AboutDescription />
+				<p><a className="Pobierz-Cv" href="http://codedev.pl/Truchan_Przemyslaw_CV.pdf">Pobierz CV</a></p>
 			</div>
 		);
 	}

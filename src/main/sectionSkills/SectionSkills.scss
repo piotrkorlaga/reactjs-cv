@@ -8,7 +8,7 @@
 	align-items: center;
 	display: flex;
 	flex-wrap: wrap;
-	padding-left: 20px;
+	padding-left: 40px;
 	margin-top: 70px;
 }
 
@@ -17,7 +17,7 @@ ul.Legend-Skills {
 		align-items: center;
 		justify-content: center;
 		display: flex;
-		font-size: 1.1vw;
+		font-size: 0.85em;
 
 		li {
 			display: inline-block;
@@ -44,4 +44,8 @@ ul.Legend-Skills {
 		.High {
 			background: #1a6572;
 		}
+
+}
+p.Star {
+	font-size: 0.9em;
 }

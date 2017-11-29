@@ -15,7 +15,7 @@ class SectionExperience extends React.Component{
 				<HeadSection name="Doświadczenie" />
 					<Timeline>
 									<TimelineEvent title="Future Trip Sp. z o.o."
-																 createdAt="11/2016 - 04/2017"
+																 createdAt="07/2016 - 04/2017"
 																 icon={<i className="Odd"></i>}
 									>
 										 Praca nad projektem, tworzącym rozwiazania dla przewoźników autobusowych. Wykorzystywane technologie i narzedzia: HTML, CSS, Bootstrap, PYTHON, DJANGO, REST API, REACT, REDUX, ES6
@@ -24,7 +24,7 @@ class SectionExperience extends React.Component{
 																 createdAt="02/2017"
 																 icon={<i className="Odd"></i>}
 									>
-										 Dwutygodniowe prowadzenie kursów dla uczniów szkoły średniej z podstaw programowania w Ostrołęce.
+										 Prowadzenie kursu dla uczniów szkoły średniej z podstaw programowania w Ostrołęce.
 									</TimelineEvent>
 									<TimelineEvent title="OpsTalent Sp. z o.o."
 																 createdAt="05/2016 - 11/2016"

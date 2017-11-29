@@ -39,8 +39,8 @@ class SectionSkills extends React.Component{
 					<Skill level="Basic" name="Jira"></Skill>
 					<Skill level="Medium" name="Bootstrap"></Skill>
 					<Skill level="Basic" name="FlexBox"></Skill>
-
 				</div>
+				<p className="Star">* - Jest to subiektywna ocena umiejętności</p>
 
 			</div>
 		);
