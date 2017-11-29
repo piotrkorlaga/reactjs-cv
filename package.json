@@ -1,6 +1,7 @@
 {
-  "name": "cvprzemo",
-  "version": "0.1.0",
+  "name": "reactjs-cv",
+  "homepage": "https://przem04.github.io/reactjs-cv",
+  "version": "0.0.1",
   "private": true,
   "dependencies": {
     "autoprefixer": "7.1.6",
@@ -42,11 +43,14 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js --env=jsdom"
+    "test": "node scripts/test.js --env=jsdom",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "css-loader": "^0.28.7",
     "file-loader": "^1.1.5",
+    "gh-pages": "^1.1.0",
     "material-ui": "^1.0.0-beta.21",
     "node-sass": "^4.7.1",
     "react-event-timeline": "^1.4.0",
