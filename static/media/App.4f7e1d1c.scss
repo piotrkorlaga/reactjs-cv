@@ -1,0 +1,57 @@
+@fontface {
+  font-family: 'Source Sans Pro', sans-serif;
+  src: url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600')
+}
+
+body {
+	padding: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: 0;
+	background: #ECF1F4;
+}
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+
+	&:hover {
+		background-color: #343434;
+	}
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+.box { @include border-radius(10px); }
+
+.BgSidebar {
+	background: #fff;
+}
+
+.Personal-foto {
+	max-height: 100px;
+	@include border-radius(50px);
+}

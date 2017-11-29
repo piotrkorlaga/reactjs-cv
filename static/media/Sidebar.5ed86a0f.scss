@@ -1,0 +1,15 @@
+@import "../common/colors/_colors.scss";
+.Sidebar {
+	background-color: #fff;
+	padding: 25px;
+	font-size: 1vw;
+
+	h2 {
+		text-align: left;
+		font-size: 1.3vw;
+		padding: 6px 0;
+		font-weight: 700;
+		color: $black;
+		border-bottom: 1px dashed $light-grey;
+	}
+}
