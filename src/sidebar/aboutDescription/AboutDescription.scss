@@ -1,0 +1,21 @@
+@import "../../common/colors/_colors.scss";
+.AboutDescription {
+	text-align: justify;
+
+	p {
+		line-height: 21px;
+	}
+
+	button {
+		background: #61DAFB;
+		padding: 6px 10px;
+		border: 1px solid #7ce0f9;
+		color: #fff;
+		border-radius: 15px;
+		outline: none;
+
+		&:hover {
+			background: #4bc0dd;
+		}
+	}
+}
