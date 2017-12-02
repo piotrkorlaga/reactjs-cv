@@ -17,7 +17,7 @@ class SectionAdditional extends React.Component{
 							<h3>Ulubione strony intenretowe: </h3>
 							<p>stackoverflow.com, jsdn.pl, nafrontendzie.pl, youtube.com </p>
 							<h3>Ulubione ksiązki: </h3>
-							<p>"Czysty kod", "JavaScript The Goog Parts", "Ojciec chrzestny", "Rodzina Borgiów"</p>
+							<p>"Czysty kod", "JavaScript The Good Parts", "Ojciec chrzestny", "Rodzina Borgiów"</p>
 							<h3>Referencje i certyfikaty (kliknij, aby pobrać): </h3>
 							<div className="Referencje">
 								<a href="http://codedev.pl/DynamicSolutions.pdf">Referencja Dynamic Solutions</a>
